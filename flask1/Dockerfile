@@ -12,7 +12,7 @@ RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8000
 
 CMD ["python","/app/app.py"]
 
