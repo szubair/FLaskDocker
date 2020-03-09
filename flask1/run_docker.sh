@@ -8,7 +8,7 @@ docker build -t flask-app1 .
 docker image ls
 
 # Run flask app in detach mode
-docker run -d -p 8000:8000 flask-app1
+docker run -d -p 5000:5000 flask-app1
 
 ## running locally
 sleep 2
